@@ -1,6 +1,6 @@
 {
 	"presets": [
-  		"@babel/preset-env",
+		"@babel/preset-env",
 		"@babel/preset-react",
 		"@babel/preset-typescript"
 	],
@@ -9,6 +9,12 @@
 			"@babel/plugin-transform-runtime",
 			{
 				"regenerator": true
+			}
+		],
+		[
+			"babel-plugin-styled-components",
+			{
+				"ssr": false
 			}
 		]
 	]
