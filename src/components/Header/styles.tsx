@@ -8,6 +8,7 @@ export const Nav = styled.nav`
 
 export const Logo = styled.h1`
 	font-size: 40px;
+	margin: 0;
 `;
 
 export const NavList = styled.ul`
@@ -23,18 +24,16 @@ export const NavItemWrapper = styled.li`
 `;
 
 export const NavItem = styled.a`
-	background-color: #ddd;
-	border: 2px solid #111;
+	background-color: #222;
 	border-radius: 4px;
-	color: #111;
+	color: #ddd;
 	display: inline-block;
 	padding: 8px;
 	transition-duration: 0.6s;
 
 	&:hover {
-		background-color: #111;
-		border-color: #ddd;
-		color: #ddd;
+		background-color: #ddd;
+		color: #222;
 	}
 `;
 
