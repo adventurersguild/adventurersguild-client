@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Nav = styled.nav`
 	position: -webkit-sticky; /* Safari */
@@ -23,7 +24,7 @@ export const NavItemWrapper = styled.li`
 	display: inline-block;
 `;
 
-export const NavItem = styled.a`
+export const NavItem = styled(Link)`
 	background-color: #222;
 	border-radius: 4px;
 	color: #ddd;

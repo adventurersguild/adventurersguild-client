@@ -6,19 +6,22 @@ const Header = (): React.ReactElement => (
 		<Logo>Adventurer&apos;s Guild</Logo>
 		<NavList>
 			<NavItemWrapper>
-				<NavItem>Home</NavItem>
+				<NavItem to="/">Home</NavItem>
 			</NavItemWrapper>
 			<NavItemWrapper>
-				<NavItem>Characters</NavItem>
+				<NavItem to="/characters">Characters</NavItem>
 			</NavItemWrapper>
 			<NavItemWrapper>
-				<NavItem>Spells</NavItem>
+				<NavItem to="/spells">Spells</NavItem>
 			</NavItemWrapper>
 			<NavItemWrapper>
-				<NavItem>Items</NavItem>
+				<NavItem to="/items">Items</NavItem>
 			</NavItemWrapper>
 			<NavItemWrapper>
-				<NavItem>Source Material</NavItem>
+				<NavItem to="/sources">Source Material</NavItem>
+			</NavItemWrapper>
+			<NavItemWrapper>
+				<NavItem to="/classes">Class Builder</NavItem>
 			</NavItemWrapper>
 		</NavList>
 	</Nav>
